@@ -9,6 +9,7 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
@@ -21,18 +22,10 @@
 
         <!-- Add your site or application content here -->
        <header>
-           <figure><img src="logo.svg" alt="logo archiduchesse"></figure>
-           <nav class="navdesktop">
-               <ul>
-                   <li><a href="index.html">Shop</a></li>
-                   <li><a href="blog.html">Blog</a></li>
-                   <li><a href="#">Info.</a></li>
-                   <li><a href="#">Atelier</a></li>
-               </ul>
-           </nav>
             
-
-            <nav class="menutablettemobile">
+            <!-- nav tablette mobile -->
+            <div class="navtablettemobile">
+            <nav>
                 <ul id="menu-deroulant">
                     <li><a href="#">Hamburger</a>
                             <ul>
@@ -45,17 +38,50 @@
                         </li>
                 </ul>
             </nav>
+            <!-- end -->
           
+
+           <figure><img src="logo.svg" alt="logo archiduchesse"></figure>
+
+           <a href="https://www.archiduchesse.com/fr/commande" id="mobilenav_cart_link" style="border-color: rgb(204, 204, 204);"><i class="material-icons">shopping_cart</i></a>
+           
+
+           <!-- nav desktop -->
+           <nav class="navdesktop">
+               <ul>
+                   <li><a href="index.html">Shop</a></li>
+                   <li><a href="blog.html">Blog</a></li>
+                   <li><a href="#">Info.</a></li>
+                   <li><a href="#">Atelier</a></li>
+               </ul>
+           </nav>
+            
+            <!-- end -->
+
      
            <section class="section1header">     
            <select name="select">
+                <div class="headerright">
                 <option value="valeur1" selected>Fr</option> 
                 <option value="valeur2" >En</option>
                 <option value="valeur3">Us</option>
                 <option value="valeur3">Es</option>
                 <option value="valeur3">De</option>
             </select>
+                
+                <h6>Bienvenue<a href="#">Collection</a></h6>
+                </div>
 
+                <h2><span>O</span>produits du panier</h2>
+                <p>frais de port offert dans 42€</p>
+
+            </section>
+
+
+
+
+            </div>
+        
        </header>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
