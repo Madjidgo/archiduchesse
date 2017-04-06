@@ -94,6 +94,8 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+/*reset*/
 *{
     margin: 0;
     padding: 0;
@@ -101,6 +103,9 @@ textarea {
 body{
     width: 90%;
     margin:auto;
+}
+img{
+    width: 100%;
 }
 
 
@@ -148,27 +153,31 @@ body{
     display: flex;
     
     text-align: center;
-    border-bottom: 1px solid Black;
-    box-shadow-bottom: 1px 5px #EFEFEF;
+    border-bottom: 1px solid #efefef;
+    box-shadow: 1px 3px #efefef;
 }
 header figure{
- margin:0;
+ margin:0 auto ;
 }
 header img{
     width: 70%;
 }
 
-/*h1*/
+/* start h1*/
 h1{
-    font-size: 20px;
+    margin-top: 3em;
+    font-size: 1.5em;
     color:#414143;
+    font-family: inherit;
+font-weight: 500;
+line-height: 1.1;
+
 }
 
 /*end h1*/
 
-/*#container*/
 
-/*aside*/
+/* start aside .taille*/
 .taille ul{
     display: flex;
     list-style-type: none;
@@ -179,11 +188,27 @@ h1{
     background-color: #F4F4F1;
     border-radius: 5px;
     padding: 4%;
-    margin:1px;
-    width: 14%; 
+    margin:2px ;
+     
 }
-.taille a
+.taille li:hover {
+    background-color: #4A4A4C;
+    color: #fff;
+}
 
+.taille a{
+    text-decoration: none;
+    color: #A7B6D0;
+}
+
+/*.taille span{
+    background-color: #4A4A4C;
+}*/
+
+.size1 figure{
+    width: 50%;
+    margin:0;
+}
 
 
 
