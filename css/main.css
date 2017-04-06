@@ -149,6 +149,7 @@ body{
     
     text-align: center;
     border-bottom: 1px solid Black;
+    box-shadow-bottom: 1px 5px #EFEFEF;
 }
 header figure{
  margin:0;
@@ -160,6 +161,7 @@ header img{
 /*h1*/
 h1{
     font-size: 20px;
+    color:#414143;
 }
 
 /*end h1*/
@@ -173,13 +175,14 @@ h1{
     flex-wrap: wrap;
 }
 .taille li{
-    border: 1px solid black;
-    background-color: grey;
+    /*border: 1px solid black;*/
+    background-color: #F4F4F1;
+    border-radius: 5px;
     padding: 4%;
     margin:1px;
     width: 14%; 
 }
-
+.taille a
 
 
 
