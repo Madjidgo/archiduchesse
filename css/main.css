@@ -94,15 +94,19 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body{
+*{
     margin: 0;
     padding: 0;
 }
+body{
+    width: 90%;
+    margin:auto;
+}
 
-img{
-    width:100%; 
-    }
 
+/*header*/
+
+/*sous menu*/
 #menu-deroulant, #menu-deroulant ul {
     padding: 0;
     margin: 0;
@@ -110,7 +114,7 @@ img{
 }
 #menu-deroulant {
 /* on centre le menu dans la page */
-    text-align: center;
+    text-align: left;
 }
 #menu-deroulant li {
 /* on place les liens du menu horizontalement */
@@ -136,6 +140,57 @@ img{
 /* Au survol des li du menu on replace les sous menus */
     left: auto;
 }
+/*end*/
+.navdesktop,.section1header{
+    display: none;
+}
+.navtablettemobile{
+    display: flex;
+    
+    text-align: center;
+    border-bottom: 1px solid Black;
+}
+header figure{
+ margin:0;
+}
+header img{
+    width: 70%;
+}
+
+/*h1*/
+h1{
+    font-size: 20px;
+}
+
+/*end h1*/
+
+/*#container*/
+
+/*aside*/
+.taille ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.taille li{
+    border: 1px solid black;
+    background-color: grey;
+    padding: 4%;
+    margin:1px;
+    width: 14%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
