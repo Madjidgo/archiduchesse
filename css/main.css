@@ -173,20 +173,24 @@ color: #fff;
 text-decoration: none;
 color: #A7B6D0;
 }
+
+
 /*start section size1*/
 .size1{
 margin-top: 3%;
-/* width: 100%;*/
+
 }
 .size1 figure{
 
 margin:0;
 }
-.size1 span {
-margin-left: 60%;
+.size1 h5 {
+margin-left: 70%;
 color: #AAA8AF;
 background-color:#F4F0F1;
 border-radius: 5px;
+width: 20%;
+margin-top: 5px;
 }
 .size1 p{
 font-size: 78%;
@@ -203,7 +207,7 @@ display: flex;
 width: 100%;
 }
 
-
+/*  start media 768px*/
 @media (min-width: 768px){
 .size{
 display: block;
@@ -212,15 +216,24 @@ display: block;
 .size ul{
     display: flex;
     list-style-type: none;
-    width: 27%;
+    width: 30%;
     padding: 1%;
-    margin: 0 auto; 
+    margin: 0 auto;
+
+}
+
+.size li{
+    font-size: 13px;
 }
 
 .size a{
     background-color: #7c2934;
     color:#fff;
-    margin:2px; 
+    margin:2px;
+
+}
+.size a:hover, .size a:focus{
+    color:grey;
 }
 }
 /* ==========================================================================
