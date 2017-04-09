@@ -88,7 +88,7 @@ width: 90%;
 margin:auto;
 }
 img{
-width: 100%;
+max-width: 100%;
 }
 /*header*/
 /*sous menu*/
@@ -206,6 +206,22 @@ margin:0;
 display: flex;
 width: 100%;
 }
+/*start footer 360px*/
+.foot2{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer figure  img {
+    height: 50px;
+margin-top: 20%;
+}
+
+.foot3{
+    display: none;
+}
+
+
+
 
 /*  start media 768px*/
 @media (min-width: 768px){
