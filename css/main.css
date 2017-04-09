@@ -91,7 +91,7 @@ img{
 max-width: 100%;
 }
 
-.size11{
+.size11, .size111,.fig{
     display: none;
 }
 /*header*/
@@ -234,6 +234,9 @@ margin-top: 20%;
 
 /*  start media 768px*/
 @media (min-width: 768px){
+    .size111{
+        display: none;
+    }
 .size,.size11{
 display: block;
 }
@@ -308,6 +311,57 @@ font-style: italic;
 /*end 768px*/
 
 /*1 media queries 1024px*/
+
+
+
+@media (min-width: 1024px){
+
+    .navtablettemobile{
+        display: none;
+    }
+
+.size,.size111,.fig{
+    display: block;
+}
+
+.size111{
+margin-top: 3%;
+
+}
+.size111 figure{
+margin:0;
+}
+.size111 h5 {
+margin-left: 70%;
+color: #AAA8AF;
+background-color:#F4F0F1;
+border-radius: 5px;
+width: 20%;
+margin-top: 5px;
+}
+.size111  p{
+font-size: 78%;
+text-align: center;
+text-transform: capitalize;
+font-style: italic;
+}
+
+.navdesktop,.section1header,.bouclette,.size,.picture67{
+display: block;
+}
+.fig1{
+margin:0 auto ;
+}
+.fig1 img{
+width: 70%;
+}
+}
+
+
+
+
+
+
 /* ==========================================================================
 Helper classes
 ========================================================================== */
