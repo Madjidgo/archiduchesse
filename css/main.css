@@ -315,6 +315,9 @@ font-style: italic;
 
 
 @media (min-width: 1024px){
+    body{
+        width: 50%;
+    }
 
     .navtablettemobile{
         display: none;
