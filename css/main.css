@@ -91,7 +91,7 @@ img{
 max-width: 100%;
 }
 
-.size11, .size111,.fig{
+.size11, .size111,.fig,.imgright{
     display: none;
 }
 /*header*/
@@ -323,7 +323,7 @@ font-style: italic;
         display: none;
     }
 
-.size,.size111,.fig{
+.size,.size111,.fig,.imgright{
     display: block;
 }
 
@@ -352,13 +352,18 @@ font-style: italic;
 .navdesktop,.section1header,.bouclette,.size,.picture67{
 display: block;
 }
-.fig1{
-margin:0 auto ;
+.navdesktop ul{
+    display: flex;
+    list-style-type: none;
+    margin:1px;
 }
-.fig1 img{
-width: 70%;
+
+.desktop{
+    display: flex;
+
 }
 }
+
 
 
 
