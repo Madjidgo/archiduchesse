@@ -360,12 +360,28 @@ display: block;
     text-decoration: none;
     padding: 25px;
 }
+.navdesktop a:hover{
+    background-color: #0f0;
+    border:1px solid;
+}
+
+
+.navdesktop li{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius:  1px  5px;
+}
 .desktop{
     display: flex;
 
 }
 .desktop figure{
     width: 25%;
+}
+.bouclette figure{
+    width: 10%;
 }
 }
 
