@@ -316,7 +316,7 @@ font-style: italic;
 
 @media (min-width: 1024px){
     body{
-        width: 50%;
+        width: 80%;
     }
 
     .navtablettemobile{
@@ -355,12 +355,17 @@ display: block;
 .navdesktop ul{
     display: flex;
     list-style-type: none;
-    margin:1px;
 }
-
+.navdesktop a{
+    text-decoration: none;
+    padding: 25px;
+}
 .desktop{
     display: flex;
 
+}
+.desktop figure{
+    width: 25%;
 }
 }
 
