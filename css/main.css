@@ -91,6 +91,10 @@ img{
 max-width: 100%;
 }
 
+header{
+    background-color: #F4F4F1;
+    width: 100%;
+}
 .size11, .size111,.fig,.imgright{
     display: none;
 }
