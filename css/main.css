@@ -142,7 +142,6 @@ display: flex;
 
 text-align: center;
 border-bottom: 1px solid #efefef;
-box-shadow: 1px 3px #efefef;
 }
 header figure{
 margin:0 auto ;
@@ -166,7 +165,6 @@ list-style-type: none;
 flex-wrap: wrap;
 }
 .taille li{
-/*border: 1px solid black;*/
 background-color: #F4F4F1;
 border-radius: 5px;
 padding: 4%;
@@ -287,8 +285,9 @@ font-style: italic;
     margin:2px;
 
 }
-.size a:hover, .size a:focus{
+.size a:hover{
     color:grey;
+    height: 5%;
 }
 /*start footer*/
 .footer1{
@@ -310,6 +309,9 @@ font-style: italic;
 }
 .footer1:nth-child(1){
     align-self: flex-end;
+}
+.size1 a:hover{
+    height: 5%;
 }
 }
 /*end 768px*/
@@ -365,7 +367,6 @@ display: block;
     padding: 25px;
 }
 .navdesktop a:hover{
-    background-color: #0f0;
     border:1px solid;
 }
 
@@ -403,6 +404,9 @@ justify-content: flex-start;
 .taille ul{
     flex-direction: column;
     position: fixed;
+}
+li:hover{
+    height: 5px;
 }
 }
 
